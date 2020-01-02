@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#843a04"
+    android:layout_height="210dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="10dp"></View>
+
+    <TextView
+        android:text="Subject Name"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="37dp"
+        android:id="@+id/sname" />
+
+    <TextView
+        android:text="Course ID"
+        android:textSize="26dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sname"
+        android:layout_alignStart="@+id/sname"
+        android:layout_marginTop="40dp"
+        android:id="@+id/cid" />
+
+    <TextView
+        android:text="Batch ID"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:layout_alignBottom="@+id/cid"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="56dp"
+        android:id="@+id/bid" />
+
+</RelativeLayout>

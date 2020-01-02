@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/c4"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#ffffff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="5sp"
+            android:textSize="35dp"
+            android:id="@+id/roll"
+            android:text="RollNumber"/>
+
+        <TextView
+            android:layout_marginTop="6sp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:id="@+id/studname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:text="Stud Name"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6sp"
+            android:id="@+id/rg"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/p"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Present"
+                android:checked="true"/>
+
+            <RadioButton
+                android:textSize="18dp"
+                android:id="@+id/a"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Absent" />
+
+            <RadioButton
+                android:textSize="18dp"
+                android:id="@+id/l"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leave" />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+</LinearLayout>

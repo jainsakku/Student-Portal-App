@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:background="@color/c3"
+    android:paddingTop="0dp"
+    tools:context="com.example.dell.sphinx_project.login_activity">
+
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/mybuttonstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/EditText2"
+        android:text="Sign In"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/mybuttonstyle"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:text="Sign Up" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:text="Save login detail" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/mybuttonstyle"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBox1"
+        android:layout_marginTop="36dp"
+        android:text="Forgott Password" />
+
+
+    <TextView
+        android:id="@+id/imageView1"
+        android:layout_width="300dp"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:fontFamily="serif"
+        android:layout_marginLeft="150dp"
+        android:scaleType="fitCenter"
+        android:text="I AM" />
+
+
+    <RadioGroup
+        android:layout_marginLeft="110dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbg1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_width="wrap_content">
+
+
+
+        <RadioButton
+            android:textStyle="bold"
+            android:id="@+id/admin"
+            android:fontFamily="serif-monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/admin"
+            android:textColor="#ee0000"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/student"
+            android:checked="true"
+            android:textSize="30dp"
+            android:textColor="#ee0000"
+            android:text="@string/student"	/>
+
+        <RadioButton
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:textColor="#ee0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/teacher"
+            android:textSize="30dp"
+            android:text="@string/teacher"	/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/rbg1"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Email ID"
+        android:inputType="textEmailAddress" />
+
+
+</RelativeLayout>

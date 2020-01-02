@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="c2">#f04055</color>
+    <color name="c3">#f4c784</color>
+    <color name="c1">#8a075c</color>
+    <color name="c4">#8b9dc3</color>
+    <color name="colorPrimary">#00897B</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#E65100</color>
+    <color name="logo">#00838F</color>
+    <color name="theme">#388E3C</color>
+    <color name="define">#FF4081</color>
+    <color name="hint">#0091EA</color>
+    <color name="forget">#6A1B9A</color>
+    <color name="remember">#283593</color>
+    <color name="login">#2196F3</color>
+    <color name="manipulate">#FF4081</color>
+</resources>
